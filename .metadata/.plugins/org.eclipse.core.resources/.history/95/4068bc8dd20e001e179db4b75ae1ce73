@@ -1,0 +1,17 @@
+
+public class ChartsExample {
+
+	public static void main(String[] args) {
+		
+		char caracter = 'a';
+		System.out.println(caracter);
+		
+		caracter = 65;
+		System.out.println(caracter);
+		
+		caracter = 65+1;
+		char secondCaracter = (char) (caracter+1)
+
+	}
+
+}

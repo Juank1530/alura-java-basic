@@ -1,0 +1,37 @@
+
+public class VariableType {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("I'm goin to show my age");
+		
+		int age = 37;
+		
+		System.out.println(age);
+		
+		age = 40;
+		
+		System.out.println(age);
+		
+		age = 20 + 82;
+		
+		System.out.println("My age is :" + age);
+		
+		double salary = 30.02;
+		
+		System.out.println(salary);
+		
+		double ages = 30.02;
+		
+		System.out.println(ages); 
+		
+		double salaryHalf = salary/2;
+		
+		System.out.println(salaryHalf);
+		
+		double variable1 = 852.65;
+		int variable1Int = (int) variable1; // Cast double to int 
+		
+	}
+
+}
