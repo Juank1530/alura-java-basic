@@ -21,7 +21,7 @@ public class ScopeExample {
 		
 		
 		
-		System.out.println("the value from condition is " + isNotAlone);
+		System.out.println("the value from condition is " + isNotAlone + isAllowToEnter);
 				
 	}
 
