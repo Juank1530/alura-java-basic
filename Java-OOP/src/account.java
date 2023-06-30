@@ -1,5 +1,5 @@
 
-class account {
+public class account {
 
 		double balance;
 		int agency;
