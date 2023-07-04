@@ -3,22 +3,22 @@ public class References {
 
 	public static void main(String[] args) {
 		
-		account firstAccount = new account();
-		firstAccount.balance = 500;
-		System.out.println(firstAccount.balance);
+		Account firstAccount = new Account();
+		firstAccount.deposit(500);
+		System.out.println(firstAccount.getBalance());
 		
-		account secondAccount = firstAccount;
-		secondAccount.balance = 200;
+		Account secondAccount = firstAccount;
+		secondAccount.deposit(200);
 		
-		account thridAccount = new account();
-		firstAccount.balance = 900;
-		System.out.println(thridAccount.balance);
+		Account thridAccount = new Account();
+		firstAccount.deposit(900);
+		System.out.println(thridAccount.getBalance());
 		
 		
-		System.out.println(firstAccount.balance);
+		System.out.println(firstAccount.getBalance());
 		
-		firstAccount.balance += 600;
-		System.out.println(firstAccount.balance);
+		firstAccount.deposit(600);
+		System.out.println(firstAccount.getBalance());
 		
 		System.out.println(firstAccount);
 		System.out.println(secondAccount);
@@ -35,7 +35,5 @@ public class References {
 			System.out.println("They are not the same object");
 		}
 		
-
 	}
-
 }

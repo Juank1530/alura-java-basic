@@ -2,18 +2,22 @@
 public class NewAccount {
 
 	public static void main(String[] args) {
-		account firstAccount = new account();
-		firstAccount.balance = 1000;
-		firstAccount.agency = 10;
-		firstAccount.number = 9999;
-		firstAccount.owner = "Juank";
 		
-		System.out.println(firstAccount.balance);
+		Customer customer1 = new Customer();
+		customer1.setName("Julio");;
 		
-		account secondAccount = new account();
-		secondAccount.balance = 800;
+		Account firstAccount = new Account();
+		firstAccount.deposit(1000);
+		firstAccount.setAgency(1);
+		firstAccount.setNumber(9999);
+		firstAccount.setOwner(customer1);
 		
-		System.out.println(secondAccount.balance);
+		System.out.println(firstAccount.getBalance());
+		
+		Account secondAccount = new Account();
+		secondAccount.deposit(800);
+		
+		System.out.println(secondAccount.getBalance());
 
 	}
 
