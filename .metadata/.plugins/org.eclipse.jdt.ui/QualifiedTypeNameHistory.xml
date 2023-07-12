@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.security.auth.login.AccountException"/>
     <fullyQualifiedTypeName name="account"/>
+    <fullyQualifiedTypeName name="customer"/>
+    <fullyQualifiedTypeName name="NewAccount"/>
+    <fullyQualifiedTypeName name="Customer"/>
+    <fullyQualifiedTypeName name="Account"/>
+    <fullyQualifiedTypeName name="Car"/>
+    <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Manager"/>
 </qualifiedTypeNameHistroy>
