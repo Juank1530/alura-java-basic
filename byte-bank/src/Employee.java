@@ -9,8 +9,9 @@ public class Employee {
 		
 	}	
 	
+	//Method Override
 	public double getBonus() {
-		return this.salary * 0.1;
+		return this.salary * 0.05;
 	}
 	
 	

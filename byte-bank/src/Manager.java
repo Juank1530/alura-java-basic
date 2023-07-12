@@ -15,6 +15,12 @@ public class Manager extends Employee {
 		return password == "Admin123";
 	}
 	
+	//Method Override  
+	public double getBonus() {
+		System.out.println("Ruing from Manager");
+		return super.getSalary() + super.getBonus();
+	}
+	
 	
 	
 	

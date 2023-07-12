@@ -10,6 +10,8 @@ public class ManagerTest {
 		manager1.setPassword("Admin123");
 		
 		System.out.println(manager1.login(manager1.getPassword()));
+		System.out.println(manager1.getBonus());
+		
 
 	}
 }
