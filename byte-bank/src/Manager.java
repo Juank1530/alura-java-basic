@@ -18,7 +18,7 @@ public class Manager extends Employee {
 	//Method Override  
 	public double getBonus() {
 		System.out.println("Ruing from Manager");
-		return super.getSalary() + super.getBonus();
+		return super.getSalary() + this.getSalary() * 0.05;
 	}
 	
 	

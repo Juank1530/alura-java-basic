@@ -11,6 +11,12 @@ public class CurrentAccount extends Account {
 		double commission = 0.2;  
 		return super.retire(value + commission);
 	}
+
+	@Override
+	public void deposit(double value) {
+		this.balance += value;
+		
+	}
 	
 	
 

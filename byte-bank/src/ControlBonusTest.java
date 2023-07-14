@@ -2,7 +2,7 @@
 public class ControlBonusTest {
 
 	public static void main(String[] args) {
-		Employee juank = new Employee();
+		Employee juank = new Accountant();
 		juank.setSalary(2000);
 		
 		Manager Diana = new Manager();

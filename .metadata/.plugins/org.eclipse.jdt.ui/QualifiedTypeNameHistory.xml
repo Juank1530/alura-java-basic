@@ -8,7 +8,11 @@
     <fullyQualifiedTypeName name="Customer"/>
     <fullyQualifiedTypeName name="Account"/>
     <fullyQualifiedTypeName name="Car"/>
-    <fullyQualifiedTypeName name="Employee"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="BonusControl"/>
     <fullyQualifiedTypeName name="Manager"/>
+    <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="Accountant"/>
+    <fullyQualifiedTypeName name="CurrentAccount"/>
+    <fullyQualifiedTypeName name="SavingsAccount"/>
 </qualifiedTypeNameHistroy>

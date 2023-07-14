@@ -1,5 +1,5 @@
 
-public class Employee {
+public abstract class Employee {
 	
 	private String name;
 	private String id;
@@ -10,10 +10,7 @@ public class Employee {
 	}	
 	
 	//Method Override
-	public double getBonus() {
-		return this.salary * 0.05;
-	}
-	
+	public abstract double getBonus();
 	
 	public String getName() {
 		return name;

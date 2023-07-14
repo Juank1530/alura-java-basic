@@ -1,7 +1,7 @@
 
-public class Account {
+public abstract class Account {
 
-	private double balance;
+	protected double balance;
 	private int agency;
 	private int number;
 	private Customer owner = new Customer(); // This is a default value to a new customer
@@ -39,9 +39,7 @@ public class Account {
 		this.owner = owner;
 	}
 
-	public void deposit(double value) {
-		this.balance += value;
-	}
+	public abstract void deposit(double value); 
 
 	public boolean retire(double value) {
 		if (this.balance >= value) {
