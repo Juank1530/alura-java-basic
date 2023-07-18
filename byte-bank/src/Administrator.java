@@ -1,11 +1,10 @@
 
-public class Manager extends Loginable {
+public class Administrator extends Loginable {
 	
-	
-	//Method Override  
+	@Override
 	public double getBonus() {
-		System.out.println("Ruing from Manager");
-		return 2000;
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	@Override
@@ -13,10 +12,5 @@ public class Manager extends Loginable {
 		// TODO Auto-generated method stub
 		return false;
 	}
-	
-	
-	
-	
-	
 
 }

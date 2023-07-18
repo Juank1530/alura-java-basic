@@ -12,7 +12,7 @@
     <fullyQualifiedTypeName name="BonusControl"/>
     <fullyQualifiedTypeName name="Manager"/>
     <fullyQualifiedTypeName name="Employee"/>
-    <fullyQualifiedTypeName name="Accountant"/>
     <fullyQualifiedTypeName name="CurrentAccount"/>
     <fullyQualifiedTypeName name="SavingsAccount"/>
+    <fullyQualifiedTypeName name="Accountant"/>
 </qualifiedTypeNameHistroy>

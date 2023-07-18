@@ -1,5 +1,5 @@
 
-public class Customer {
+public class Customer extends Loginable{
 	
 	private String name;
 	private String id;
@@ -21,6 +21,16 @@ public class Customer {
 	}
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+	@Override
+	public boolean login(String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public double getBonus() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 
